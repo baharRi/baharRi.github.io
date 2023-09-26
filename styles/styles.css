@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Eczar&family=Inter&display=swap");
+html {
+  background-color: #dcdeda;
+  position: relative;
+}
+html::before {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("dotsBg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 60%;
+}
+#headerContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #191a1f;
+  padding-top: 150px;
+}
+#page {
+  margin: 0px 220px 0px 120px;
+}
+h4 {
+  color: #636a69;
+}
+h1,
+h2 {
+  font-family: "Arvo", serif;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 5em;
+}
+h1 span {
+  position: relative;
+  color: #636a69;
+}
+h1 span::before {
+  border-radius: 4px;
+  content: " ";
+  right: -20px;
+  top: 45%;
+  position: absolute;
+  height: 80px;
+  width: 6px;
+  background: #636a69;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+h1 span.stopBlinking::before {
+  animation: none;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: #dcdeda;
+  display: flex;
+  justify-content: space-between;
+}
+nav:after {
+  content: "";
+  height: 2px;
+  width: 90%;
+  background-color: #191a1f;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-family: "Arvo", serif;
+  margin: 0px 5em 0px 0px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px 30px;
+  text-transform: uppercase;
+}
+.logo {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  margin: 0px 0px 0px 6em;
+}

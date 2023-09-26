@@ -4,20 +4,24 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
 
     <title>Bahar Riazi: Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="lil_logo.svg" />
-
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="styles/newLogo.svg" />
   </head>
 
   <body>
-    
     <header>
-      <h1>Hello. I'm<br />Bahar Riazi</h1>
+      <div id="headerContent">
+        <h1>Hello. I'm <br /><span></span>&nbsp;</h1> 
+        <a>See my projects</a>
+      </div>
+      
       <nav>
+        <img src="styles/newLogoVariant.svg" class="logo">
         <ul>
-          <img src="lil_logo.svg" class="logo">
           <li className="pageLink"><a href="#aboutMe">About me</a></li>
           <li className="pageLink"><a href="#projects">My projects</a></li>
           <li className="pageLink"><a href="#contactMe">Contact me</a></li>
@@ -25,118 +29,120 @@
       </nav>
     </header>
 
-    <section id="aboutMe">
-      <h2>About me</h2>
-      <p>
-        I am a masters student at the University of Oslo, studying
-        <strong>informatics: design, use & interaction</strong>.
-      </p>
-      <p>
-        I believe that well-made design can contribute to create better
-        experiences for anyone. I am firm in my belief that design is crucial
-        for shaping the world into a better place that is
-        <strong>more accessible, equitable, and sustainable for everyone</strong
-        >.
-      </p>
-      <p>
-        I am eager to collaborate with teams of fellow designers as well as
-        other disciplines in order to craft technology that serves as a tool for
-        empowerment and helpfulness, rather than contributing to exclusion. My
-        areas of interest are
-        <strong>interaction design & digitalization</strong>. I see value in
-        small details, and I am highly driven to reach my own expectation of
-        perfection with every project I come across.
-      </p>
-    </section>
-
-    <section id="projects">
-      <h2>My projects</h2>
-
-      <article className="inProject">
-        <h3>AtomIQ</h3>
-        <h4>Interaction layer for crypto investment application</h4>
+    <div id="page">
+      <section id="aboutMe">
+        <h2>About me</h2>
         <p>
-          In the class of <strong>IN3010: Transformative Design</strong> (Spring
-          2023), with a focus on <em>social sustainability</em>, my design team
-          partnered with an established team of developers to create a wireframe
-          of the interaction design layer of their upcoming investment app
-          AtomIQ.
+          I am a masters student at the University of Oslo, studying
+          <strong>informatics: design, use & interaction</strong>.
         </p>
         <p>
-          This mockup was not focused on aesthetics, but rather how we could
-          contribute our expertise within HCI and creativity as students to
-          create an application that
-          <strong>encourages and educates</strong> new users for the sake of
-          democracy within the field of finance.
-        </p>
-      </article>
-
-      <article className="inProject">
-        <h3>Svoosh</h3>
-        <h4>Interaction design for android application</h4>
-        <p>
-          In the class of <strong>IN2000: Software Engineering</strong> (Spring
-          2022), I worked in an interdisciplinary team with other informatics
-          students to create an application made to guide the people of Oslo on
-          their bicycling journeys. The app uses APIs from the
-          <em>Norwegian Meteorological Institute</em> and was created through
-          <strong>agile software development</strong>.
+          I believe that well-made design can contribute to create better
+          experiences for anyone. I am firm in my belief that design is crucial
+          for shaping the world into a better place that is
+          <strong>more accessible, equitable, and sustainable for everyone</strong
+          >.
         </p>
         <p>
-          Within the team I was given the role as
-          <strong>head designer,</strong> and my responsibilities were to plan
-          interactions with users as well as creating design mockups and
-          <strong>implementing the design</strong> into the app using the markup
-          language XML. The rest of the application was created using Kotlin,
-          which I also contributed to occasionally.
+          I am eager to collaborate with teams of fellow designers as well as
+          other disciplines in order to craft technology that serves as a tool for
+          empowerment and helpfulness, rather than contributing to exclusion. My
+          areas of interest are
+          <strong>interaction design & digitalization</strong>. I see value in
+          small details, and I am highly driven to reach my own expectation of
+          perfection with every project I come across.
         </p>
-      </article>
-
-      <article className="inProject">
-        <h3>P4L</h3>
-        <h4>Designing, building, & Arduino-programming of P4L the robot</h4>
-        <p>
-          In the class of <strong>IN1060: Use Oriented Design</strong> (Spring
-          2021), in a group with fellow design students, we created
-          <em>P4L: a friendly robot</em> designed to encourage socializing and a
-          sense of responsibility as well as
-          <strong>fighting loneliness</strong> in a time of crisis and
-          quarantine.
-        </p>
-        <p>
-          P4L was created using Arduino in order to implement functionality such
-          as the ability to feed and pet the robot, as well as having it
-          communicate through sounds and movements.
-          <br /><a href="https://github.com/ltuhn/anemone">Project on GitHub</a>
-        </p>
-      </article>
-
-      <article className="projectsPlr">
-        <h3>Smaller projects</h3>
-        <h4>"Country Lookup" 2023</h4>
-        <p>
-          A website created using React; JavaScript, HTML, and CSS,
-          communicating with and displaying data from an API containing
-          information about all the countries of the world.
-        </p>
-        <p><strong>Functionality:</strong><br />
-          <ul className="functionality">
-            <li>Search for countries in a database of every country in the world</li>
-            <li>Navigate through pages of results</li>
-            <li>Specify amount of results per page</li>
-            <li>Clicking on table headers to sort (ascending, then descending) through the clicked section</li>
-          </ul>
-        </p>
-
-        <h4>This website! 2023</h4>
-        <p>I created this website portfolio using HTML and CSS in my freetime to be more comfortable with frontend development and GitHub.
-          <br /> <a>Project on GitHub</a>
-        </p>
-      </article>
-    </section>
-
-    <section id="contactMe">
-      <h2>Contact Me</h2>
-    </section>
+      </section>
+  
+      <section id="projects">
+        <h2>My projects</h2>
+  
+        <article className="inProject">
+          <h3>AtomIQ</h3>
+          <h4>Interaction layer for crypto investment application</h4>
+          <p>
+            In the class of <strong>IN3010: Transformative Design</strong> (Spring
+            2023), with a focus on <u>social sustainability</u>, my design team
+            partnered with an established team of developers to create a wireframe
+            of the interaction design layer of their upcoming investment app
+            AtomIQ.
+          </p>
+          <p>
+            This mockup was not focused on aesthetics, but rather how we could
+            contribute our expertise within HCI and creativity as students to
+            create an application that
+            <strong>encourages and educates</strong> new users for the sake of
+            democracy within the field of finance.
+          </p>
+        </article>
+  
+        <article className="inProject">
+          <h3>Svoosh</h3>
+          <h4>Interaction design for android application</h4>
+          <p>
+            In the class of <strong>IN2000: Software Engineering</strong> (Spring
+            2022), I worked in an interdisciplinary team with other informatics
+            students to create an application made to guide the people of Oslo on
+            their bicycling journeys. The app uses APIs from the
+            <u>Norwegian Meteorological Institute</u> and was created through
+            <strong>agile software development</strong>.
+          </p>
+          <p>
+            Within the team I was given the role as
+            <strong>head designer,</strong> and my responsibilities were to plan
+            interactions with users as well as creating design mockups and
+            <strong>implementing the design</strong> into the app using the markup
+            language XML. The rest of the application was created using Kotlin,
+            which I also contributed to occasionally.
+          </p>
+        </article>
+  
+        <article className="inProject">
+          <h3>P4L</h3>
+          <h4>Designing, building, & Arduino-programming of P4L the robot</h4>
+          <p>
+            In the class of <strong>IN1060: Use Oriented Design</strong> (Spring
+            2021), in a group with fellow design students, we created
+            <u>P4L: a friendly robot</u> designed to encourage socializing and a
+            sense of responsibility as well as
+            <strong>fighting loneliness</strong> in a time of crisis and
+            quarantine.
+          </p>
+          <p>
+            P4L was created using Arduino in order to implement functionality such
+            as the ability to feed and pet the robot, as well as having it
+            communicate through sounds and movements.
+            <br /><a href="https://github.com/ltuhn/anemone">Project on GitHub</a>
+          </p>
+        </article>
+  
+        <article className="projectsPlr">
+          <h3>Smaller projects</h3>
+          <h4>"Country Lookup" 2023</h4>
+          <p>
+            A website created using React; JavaScript, HTML, and CSS,
+            communicating with and displaying data from an API containing
+            information about all the countries of the world.
+          </p>
+          <p><strong>Functionality:</strong><br />
+            <ul className="functionality">
+              <li>Search for countries in a database of every country in the world</li>
+              <li>Navigate through pages of results</li>
+              <li>Specify amount of results per page</li>
+              <li>Clicking on table headers to sort (ascending, then descending) through the clicked section</li>
+            </ul>
+          </p>
+  
+          <h4>This website! 2023</h4>
+          <p>I created this website portfolio in my freetime to be more comfortable with HTML, CSS, JavaScipt and GitHub.
+            <br /> <a>Project on GitHub</a>
+          </p>
+        </article>
+      </section>
+  
+      <section id="contactMe">
+        <h2>Contact Me</h2>
+      </section>
+    </div>
   </body>
 </html>
