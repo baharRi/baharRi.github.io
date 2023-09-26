@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+    <script src="https://kit.fontawesome.com/32a97981f3.js" crossorigin="anonymous"></script>
 
     <title>Bahar Riazi: Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css" />
@@ -16,7 +16,13 @@
     <header>
       <div id="headerContent">
         <h1>Hello. I'm <br /><span></span>&nbsp;</h1> 
-        <a>See my projects</a>
+        <div id="subHeader">
+          <a href="#projects"><button id="projectButton">See my projects <i class="fa-solid fa-arrow-down"></i></button></a>
+          <p id="intro">
+            I am a masters student at the University of Oslo, studying
+            <strong>informatics: design, use & interaction</strong>.
+          </p>
+        </div>
       </div>
       
       <nav>
@@ -31,7 +37,9 @@
 
     <div id="page">
       <section id="aboutMe">
-        <h2>About me</h2>
+        
+          <h2>About me</h2>
+          
         <p>
           I am a masters student at the University of Oslo, studying
           <strong>informatics: design, use & interaction</strong>.
@@ -55,7 +63,9 @@
       </section>
   
       <section id="projects">
-        <h2>My projects</h2>
+        
+          <h2>My Projects</h2>
+          
   
         <article className="inProject">
           <h3>AtomIQ</h3>
