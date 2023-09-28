@@ -26,7 +26,7 @@ const typeEffect = () => {
 }
 
 if (currentUrl.includes("projectAtomIQ.html")) {
-    typingText = "AtomIQ interaction:"
+    typingText = "AtomIQ:"
 } else if (currentUrl.includes("index.html")) {
     typingText ="Bahar Riazi."
 } else if (currentUrl.includes("projectSvoosh.html")) {
