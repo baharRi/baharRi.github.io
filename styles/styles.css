@@ -116,14 +116,41 @@ nav ul {
   font-family: "Arvo", serif;
   margin: 0px 5em 0px 0px;
 }
-nav ul li {
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Arvo", serif;
+  margin: 0px 5em 0px 0px;
+}
+.pageLink {
   display: inline-block;
   margin: 20px 30px;
   text-transform: uppercase;
   font-weight: 600;
 }
-nav ul li a {
-  color: #636a69;
+.contactLink {
+  display: inline-block;
+  margin: 20px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #53847c;
+  font-size: x-large;
+}
+.contactLink:hover {
+  color: #191a1f;
+  transition-duration: 0.3s;
+}
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactItem p {
+  text-transform: uppercase;
+}
+.pageLink a {
+  color: #53847c;
 }
 .logo {
   width: 64px;
@@ -274,16 +301,21 @@ ul.projectList {
   transition: 0.1s ease-in;
   margin: 10px;
 }
-
+.inProject p {
+  font-size: large;
+  margin-left: 1em;
+}
 .projectTitle {
   color: #191a1f;
   font-size: xx-large;
   text-align: center;
-}
-.inProject h3 {
   margin: 0;
   text-shadow: 1px 1px 2px #191a1f;
   transition: 0.1s ease-in;
+}
+.projectList h4 {
+  margin-top: 0;
+  font-size: large;
 }
 .projectPageTitle {
   margin: 30px;
@@ -389,4 +421,7 @@ ul {
 }
 .underline {
   border-bottom: #53847c solid 2px;
+}
+#contactMe {
+  margin-bottom: 200px;
 }

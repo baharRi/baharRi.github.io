@@ -34,9 +34,9 @@
       <nav>
         <img src="styles/newLogoVariant.svg" class="logo" />
         <ul>
-          <li className="pageLink"><a href="#aboutMe">About me</a></li>
-          <li className="pageLink"><a href="#projects">My projects</a></li>
-          <li className="pageLink"><a href="#contactMe">Contact me</a></li>
+          <li class="pageLink"><a href="#aboutMe">About me</a></li>
+          <li class="pageLink"><a href="#projects">My projects</a></li>
+          <li class="pageLink"><a href="#contactMe">Contact me</a></li>
         </ul>
       </nav>
     </header>
@@ -164,6 +164,7 @@
               communicating with and displaying data from an API containing
               information about all the countries of the world.
             </p>
+            <br />
             <p><strong>Functionality:</strong></p>
             <div class="container">
               <p>
@@ -175,17 +176,16 @@
                 <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
                 Specify amount of results per page<br />
                 <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
-                Clicking on table headers to sort (ascending, thendescending)
-                through the clicked section
+                Clicking on table headers to sort - ascending, then descending -
+                based on the clicked header (e.g., smallest/highest population)
               </p>
             </div>
           </article>
           <article>
-            <br />
             <div id="divider"></div>
             <h4>This website! 2023</h4>
             <p>
-              I created this website portfolio in my freetime from scratch, to
+              I created this website portfolio in my free time from scratch, to
               become more comfortable with HTML, CSS, JavaScipt and GitHub.
             </p>
             <p>
@@ -213,10 +213,27 @@
       <footer id="contactMe">
         <div id="bottomDivider"></div>
         <h2>Contact Me</h2>
-        <a className="contactLink" href="mailto:baharri@uio.no" target="_blank"
-          ><button id="emailBtn">
-            Email me <i class="fa-regular fa-envelope"></i></button
-        ></a>
+        <br />
+        <ul>
+          <li class="contactItem">
+            <i class="fa-regular fa-envelope"></i>
+            <a class="contactLink" href="mailto:baharri@uio.no" target="_blank">
+              Email me
+            </a>
+            <p>baharri@uio.no</p>
+          </li>
+          <li class="contactItem">
+            <i class="fa-solid fa-code"></i>
+            <a
+              class="contactLink"
+              href="https://github.com/baharRi"
+              target="_blank"
+            >
+              My GitHub</a
+            >
+            <p>baharRi.github.io</p>
+          </li>
+        </ul>
       </footer>
     </div>
   </body>
