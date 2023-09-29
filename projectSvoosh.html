@@ -17,43 +17,120 @@
 
   <body>
     <header>
+        <div id="headerContent">
+            <h1 class="projectPageTitle">
+                &nbsp;<span class="type"></span><br />&nbsp;Spring 2022
+              </h1>
+            <div id="subHeader">
+                <p class="intro">
+                  <strong>My roles:</strong><br />
+                  Head of design, in charge of XML implementation, <br />
+                  user involvement
+                </p>
+              </div>
+          </div>
+        
       <nav>
         <img src="styles/newLogoVariant.svg" class="logo" />
         <ul>
           <li className="pageLink">
-            <a href="index.html">Back to Homepage</a>
+            <a href="index.html#svooshArticle">Back to Homepage</a>
           </li>
           <li className="pageLink">
-            <a href="index.html#contactMe">Contact me</a>
+            <a href="#contactMe">Contact me</a>
           </li>
         </ul>
       </nav>
-      <h1 class="projectPageTitle">
-        &nbsp;<span class="type"></span><br />&nbsp;Spring 2022
-      </h1>
+      
     </header>
     <div class="page">
-      <section>
-        <h2>Interaction design for android application</h2>
-        <p>
-          In the class of <strong>IN2000: Software Engineering</strong> (Spring
-          2022), I worked in an interdisciplinary team with other informatics
-          students to create an application made to guide the people of Oslo on
-          their bicycling journeys. The app uses APIs from the
-          <u>Norwegian Meteorological Institute</u> and was created through
-          <strong>agile software development</strong>.
-        </p>
-        <p>
-          Within the team I was given the role as
-          <strong>head designer,</strong> and my responsibilities were to plan
-          interactions with users as well as creating design mockups and
-          <strong>implementing the design</strong> into the app using the markup
-          language XML. The rest of the application was created using Kotlin,
-          which I also contributed to occasionally.
-        </p>
+        <section>
+            <h2>Interaction design for android application</h2>
+            <div class="imgContainer">
+                <img src="images/svoosh/svooshMockup2.jpg" alt="mockup of interface on a phone" class="mockup">
+              </div>
+            
+            <div class="splitContainer">
+              <div class="smallDiv">
+                <h3>Gained experience</h3>
+                <p><em><i class="fa-solid fa-arrow-trend-up" style="color:#636a69"></i> Agile software development, Scrumban</p>
+                <p><i class="fa-solid fa-arrow-trend-up" style="color:#636a69"></i> Completely independent, interdisciplinary teamwork</p>
+                <p><i class="fa-solid fa-arrow-trend-up" style="color:#636a69"></i> GitHub & Figma</p>
+                <p><i class="fa-solid fa-arrow-trend-up" style="color:#636a69"></i> Programming: Kotlin, XML</em></p>
+              </div>
+              <div class="class="">
+                <h3>Project description</h3>
+                <p>
+                    In the class of <strong>IN2000: Software Engineering</strong>, I worked in an 
+                    interdisciplinary team with other informatics students (developers + designers) 
+                    to create an application made to guide the people of Oslo on their bicycling 
+                    journeys throughout the city. 
+                    The app uses weather APIs from the <u>Norwegian Meteorological Institute</u> 
+                    and was created through an <strong>agile software development</strong> process.
+                </p>
+                <p>After the Covid-19 pandemic, more and more people are using cycling as a mode of 
+                    transportation in Oslo to avoid public transport. The market for systems aiding 
+                    the activity is growing significantly. Through the application, we hope to encourage 
+                    the local people of Oslo to continue to choose sustainable options for public 
+                    transportation.</p>
+                </p>
+              </div>
+            </div>
+            <div id="divider"></div>
+            
+            <h2>Project case:</h2>
+            <p class="caseDesc">
+              <em
+                ><strong>"Create an application that shows recommended biking routes in 
+                    Oslo, where variables such as traffic should be taken into account."<br />
+                <br />
+                "Establish a system that raises and maintains commitment and motivation around 
+                bicycling as a sustainable mode of transportation; this is important both for the safety 
+                of the population and in a larger perspective - for the global society."</strong></em
+              >
+              </p>
+              <br />
+            <div id="atomiqContent">
+              <h3 class="underline">Problems</h3>
+              <ul>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> An application for easy access to bicycling paths in Oslo is growing increasingly necessary as more people are engaging in the activity.</li>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Cycling roads are hard to keep track of and few and far between, and often times bikers end up having to cycle on the road, next to dangerous traffic.</li>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Cycling in poor weather conditions and high traffic areas can worsen the experience and demotivate cyclists from engaging in the activity.</p></li>
+              </ul>
+              <br />
 
-        <h3>Case:</h3>
-      </section>
+              <h3 class="underline">Project objectives</h3>
+              <ul>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Focus on the local environment and surroundings and be future-oriented.</li>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Give the user the option to add locations to their favorites, for easy access and usability.</li>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Recommend relevant biking paths for the user, depending on weather and air quality, to motivate and encourage using bicycling as a mode of transportation.</li>
+                <li><i class="fa-solid fa-angle-right" style="color:#53847c"></i> Display the weather and air quality in the area to help the user plan their bicylcing days and routes.</li>
+              </ul>
+              <br />
+              <p>These objectives are only within the scope of the project timeline. <br />
+                <strong>The goal in the long-run</strong> is for this application to encourage and help the people of Oslo choose bicycling as a preferred mode of transportation to make Oslo a more sustainable city. 
+                We aim to give more planning opportunities for the people interested in bicycling in Oslo, to make it into a more enjoyable experience, and continue to motivate bicycling as a healthy personal habit.
+              </p>
+
+              <div id="divider"></div>
+            <div class="images">
+              <img class="screenshot" id="svooshMain" src="images/svoosh/svooshMain.png" alt="Main page design of the app">
+              <img class="screenshot" id="svooshWeath" src="images/svoosh/svooshWeather.png" alt="Opened weather fragment within the main page">
+              <img class="screenshot" id="svooshFav" src="images/svoosh/svooshFavorites.png" alt="Favorites page on the app">
+            </div>
+            <div class="images2">
+                
+                <img src="images/svoosh/svooshTimeline.svg" alt="Timeline of development of the app, agile development" id="timeline">
+                 
+            </div>
+            
+          </section>
+      
+          <footer id="contactMe">
+            <div id="bottomDivider"></div>
+            <h2>Contact Me</h2>
+            <a className="contactLink" href="mailto:baharri@uio.no" target="_blank"><button id="emailBtn">Email me <i class="fa-regular fa-envelope"></i></button></a>
+          </footer>
     </div>
   </body>
 </html>

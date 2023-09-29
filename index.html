@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://kit.fontawesome.com/32a97981f3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/32a97981f3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Bahar Riazi: Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css" />
@@ -15,18 +18,21 @@
   <body>
     <header>
       <div id="headerContent">
-        <h1>Hello. I'm <br /><span class="type">Bahar Riazi</span>&nbsp;</h1> 
+        <h1>Hello. I'm <br /><span class="type">Bahar Riazi</span>&nbsp;</h1>
         <div id="subHeader">
-          <a href="#projects"><button id="projectButton">See my projects <i class="fa-solid fa-arrow-down"></i></button></a>
-          <p id="intro">
+          <a href="#projects"
+            ><button id="projectButton">
+              See my projects <i class="fa-solid fa-arrow-down"></i></button
+          ></a>
+          <p class="intro">
             I am a masters student at the University of Oslo, studying
             <strong>informatics: design, use & interaction</strong>.
           </p>
         </div>
       </div>
-      
+
       <nav>
-        <img src="styles/newLogoVariant.svg" class="logo">
+        <img src="styles/newLogoVariant.svg" class="logo" />
         <ul>
           <li className="pageLink"><a href="#aboutMe">About me</a></li>
           <li className="pageLink"><a href="#projects">My projects</a></li>
@@ -37,140 +43,180 @@
 
     <div class="page">
       <section id="aboutMe">
-        
-          <h2>About me</h2>
-          <div class="splitContainer">
-            <div class="smallDiv">
-              <h3>My skills</h3>
-                <h4>Programming</h4>
-                  <p><em>Python, Java, Kotlin, SQL <br />React; Javascript; HTML 5; CSS</em></p>
-                <h4>Programs</h4>
-                <p><em>GitHub, Adobe Illustrator & Photoshop, Figma</em></p>
-            </div>
-            <div class="bigDiv">
-              <h3>My visions</h3>
-
-          <p>
-            I believe that well-made design can contribute to create better
-            experiences for anyone. I am firm in my belief that design is crucial
-            for shaping the world into a better place that is
-            <strong>more accessible, equitable, and sustainable for every person</strong
-            >.
-          </p>
-          <p>
-            I am eager to collaborate with teams of fellow designers as well as
-            other disciplines in order to craft technology that serves as a tool for
-            empowerment and helpfulness, rather than contributing to exclusion. My
-            areas of interest are
-            <strong>interaction design & digitalization</strong>. I see value in
-            small details, and I am highly driven to reach my own expectation of
-            perfection with every project I come across.
-          </p>
-            </div>
-          
+        <h2>About me</h2>
+        <div class="splitContainer">
+          <div class="smallDiv">
+            <h3>My skills</h3>
+            <h4>Programming</h4>
+            <p>
+              <em
+                >Python, Java, Kotlin, SQL <br />React; Javascript; HTML 5;
+                CSS</em
+              >
+            </p>
+            <h4>Programs</h4>
+            <p><em>GitHub, Adobe Illustrator & Photoshop, Figma</em></p>
           </div>
-        
+          <div class="bigDiv">
+            <h3>My visions</h3>
+
+            <p>
+              I believe that well-made design can contribute to create better
+              experiences for anyone. I am firm in my belief that design is
+              crucial for shaping the world into a better place that is
+              <strong
+                >more accessible, equitable, and sustainable for every
+                person</strong
+              >.
+            </p>
+            <p>
+              I am eager to collaborate with teams of fellow designers as well
+              as other disciplines in order to craft technology that serves as a
+              tool for empowerment and helpfulness, rather than contributing to
+              exclusion. My areas of interest are
+              <strong>interaction design & digitalization</strong>. I see value
+              in small details, and I am highly driven to reach my own
+              expectation of perfection with every project I come across.
+            </p>
+          </div>
+        </div>
       </section>
       <div id="divider"></div>
 
       <section id="projects">
-        
-          <h2>My Projects</h2>
-          
-          <ul class="projectList">
-            <li>
-              <article class="inProject">
-                <div class="container">
+        <h2>My Projects</h2>
+
+        <ul class="projectList">
+          <li>
+            <article class="inProject" id="atomiqArticle">
+              <div class="container">
                 <h3 class="projectTitle">AtomIQ interaction</h3>
                 <h4>Interaction layer for crypto investment application</h4>
-                  <p>
-                    In the class of <strong>IN3010: Transformative Design</strong> (Spring
-          2023), with a focus on <u>social sustainability</u>, my design team
-          partnered with the established core team from AtomIQ to create a
-          wireframe of the interaction design layer of their upcoming investment
-          app.
-                  </p>
-                </div>
-                <img src="styles/openProject.svg">
-              </article>
-              <a href="projectAtomIQ.html" class="main"></a>
-            </li>
+                <p>
+                  In the class of
+                  <strong>IN3010: Transformative Design</strong> (Spring 2023),
+                  with a focus on <u>social sustainability</u>, my design team
+                  partnered with the established core team from AtomIQ to create
+                  a wireframe of the interaction design layer of their upcoming
+                  investment app.
+                </p>
+              </div>
+              <img src="styles/openProject.svg" />
+            </article>
+            <a href="projectAtomIQ.html" class="main"></a>
+          </li>
 
-            <li>
-              <article class="inProject">
-                <div class="container">
-                  <h3 class="projectTitle">Svoosh</h3>
+          <li>
+            <article class="inProject" id="svooshArticle">
+              <div class="container">
+                <h3 class="projectTitle">Svoosh</h3>
                 <h4>Interaction design for android application</h4>
                 <p>
-                  In the class of <strong>IN2000: Software Engineering</strong> (Spring
-                  2022), I worked in an interdisciplinary team with other informatics
-                  students to create an application made to guide the people of Oslo on
-                  their bicycling journeys. The app uses APIs from the
-                  <u>Norwegian Meteorological Institute</u> and was created through
-                  <strong>agile software development</strong>.
+                  In the class of
+                  <strong>IN2000: Software Engineering</strong> (Spring 2022), I
+                  worked in an interdisciplinary team with other informatics
+                  students to create an application made to guide the people of
+                  Oslo on their bicycling journeys. The app uses APIs from the
+                  <u>Norwegian Meteorological Institute</u> and was created
+                  through <strong>agile software development</strong>.
                 </p>
-                
-                </div>
-                <img src="styles/openProject.svg">
-              </article>
-              <a href="projectSvoosh.html" class="main"></a>
-            </li>
-            
-            <li>
-              <article class="inProject">
+              </div>
+              <img src="styles/openProject.svg" />
+            </article>
+            <a href="projectSvoosh.html" class="main"></a>
+          </li>
 
-                <div class="container">
-                  <h3 class="projectTitle">P4L</h3>
-                <h4>Designing, building, & Arduino-programming of P4L the robot</h4>
+          <li>
+            <article class="inProject" id="PALArticle">
+              <div class="container">
+                <h3 class="projectTitle">P4L</h3>
+                <h4>
+                  Designing, building, & Arduino-programming of P4L the robot
+                </h4>
                 <p>
-                  In the class of <strong>IN1060: Use Oriented Design</strong> (Spring
-                  2021), in a group with fellow design students, we created
-                  <u>P4L: a friendly robot</u> designed to encourage socializing and a
-                  sense of responsibility as well as
+                  In the class of
+                  <strong>IN1060: Use Oriented Design</strong> (Spring 2021), in
+                  a group with fellow design students, we created
+                  <u>P4L: a friendly robot</u> designed to encourage socializing
+                  and a sense of responsibility as well as
                   <strong>fighting loneliness</strong> in a time of crisis and
                   quarantine.
                 </p>
-                
-                </div>
-                <img src="styles/openProject.svg">
-              </article>
-              <a href="projectPAL.html" class="main"></a>
-            </li>
-      
-            <article className="projectsPlr">
-              <h3>Smaller projects</h3>
-              <h4>"Country Lookup" 2023</h4>
-              <p>
-                A website created using React; JavaScript, HTML, and CSS,
-                communicating with and displaying data from an API containing
-                information about all the countries of the world.
-                
-              </p>
-              <p><strong>Functionality:</strong><br />
-                <ul className="functionality">
-                  <li>Search for countries in a database of every country in the world</li>
-                  <li>Navigate through pages of results</li>
-                  <li>Specify amount of results per page</li>
-                  <li>Clicking on table headers to sort (ascending, then descending) through the clicked section</li>
-                </ul>
-              </p>
-      
-              <h4>This website! 2023</h4>
-              <p>I created this website portfolio in my freetime from scratch, to become more comfortable with HTML, CSS, JavaScipt and GitHub.
-              </p>
-              <p>Frontend development and interface design is something I have always wanted to grow more experienced with. <br />
-                After learning all the necessary puzzle pieces from my studies, I grew dedicated to execute my newly learned skills for my own project.
-              </p>
-              <a className="gitButton" href="https://github.com/baharRi/baharRi.github.io" target="blank"><button>Project on GitHub <i class="fa-solid fa-up-right-from-square"></i></button></a>
+              </div>
+              <img src="styles/openProject.svg" />
             </article>
-          </ul>
-        
+            <a href="projectPAL.html" class="main"></a>
+          </li>
+          <div id="divider"></div>
+          <h3 id="smallerProj">Smaller projects</h3>
+          <div id="divider"></div>
+          <article>
+            <img
+              src="images/countryWeb.png"
+              alt="Photo of the 'CountryLookup' website"
+              id="countryLookup"
+              class="floatRight"
+            />
+            <h4>"Country Lookup" 2023</h4>
+
+            <p>
+              A website created using React; JavaScript, HTML, and CSS,
+              communicating with and displaying data from an API containing
+              information about all the countries of the world.
+            </p>
+            <p><strong>Functionality:</strong></p>
+            <div class="container">
+              <p>
+                <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
+                Search for countries in a database of every country in the
+                world<br />
+                <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
+                Navigate through pages of results<br />
+                <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
+                Specify amount of results per page<br />
+                <i class="fa-solid fa-angle-right" style="color: #53847c"></i>
+                Clicking on table headers to sort (ascending, thendescending)
+                through the clicked section
+              </p>
+            </div>
+          </article>
+          <article>
+            <br />
+            <div id="divider"></div>
+            <h4>This website! 2023</h4>
+            <p>
+              I created this website portfolio in my freetime from scratch, to
+              become more comfortable with HTML, CSS, JavaScipt and GitHub.
+            </p>
+            <p>
+              Frontend development and interface design is something I have
+              always wanted to grow more experienced with. <br />
+              After learning all the necessary puzzle pieces from my studies, I
+              grew dedicated to execute my newly learned skills for my own
+              project.
+            </p>
+            <br />
+            <div class="center">
+              <a
+                className="gitButton"
+                href="https://github.com/baharRi/baharRi.github.io"
+                target="blank"
+                ><button>
+                  Project on GitHub
+                  <i class="fa-solid fa-up-right-from-square"></i></button
+              ></a>
+            </div>
+          </article>
+        </ul>
       </section>
-  
+
       <footer id="contactMe">
         <div id="bottomDivider"></div>
         <h2>Contact Me</h2>
-        <a className="contactLink" href="mailto:bahar.riazi@hotmail.no" target="_blank"><button id="emailBtn">Email me <i class="fa-regular fa-envelope"></i></button></a>
+        <a className="contactLink" href="mailto:baharri@uio.no" target="_blank"
+          ><button id="emailBtn">
+            Email me <i class="fa-regular fa-envelope"></i></button
+        ></a>
       </footer>
     </div>
   </body>
