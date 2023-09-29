@@ -1,6 +1,6 @@
 const dynamicText = document.querySelector("h1 span");
 const currentUrl = window.location.href;
-let typingText = "Bahar Riazi."
+let typingText = "Bahar."
 let charIndex = 0; 
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -28,7 +28,7 @@ const typeEffect = () => {
 if (currentUrl.includes("projectAtomIQ.html")) {
     typingText = "AtomIQ:"
 } else if (currentUrl.includes("index.html")) {
-    typingText ="Bahar Riazi."
+    typingText ="Bahar."
 } else if (currentUrl.includes("projectSvoosh.html")) {
     typingText ="Svoosh:"
 } else if (currentUrl.includes("projectPAL.html")) {
