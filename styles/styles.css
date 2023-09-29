@@ -129,6 +129,10 @@ footer ul {
   text-transform: uppercase;
   font-weight: 600;
 }
+.pageLink a:hover {
+  color: #191a1f;
+  transition-duration: 0.3s;
+}
 .contactLink {
   display: inline-block;
   margin: 20px 30px;
